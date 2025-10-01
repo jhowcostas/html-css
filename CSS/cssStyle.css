@@ -1,0 +1,349 @@
+h2{
+   border-bottom: 2px solid red;
+}
+
+.color-name {
+    border-bottom: 3px solid black;
+    /* nome de cores */
+    color: #63a210
+}
+/* colocando uma imagem de plano de fundo */
+#testeid{
+    background-image: url(../img/fundo.png);
+}
+
+/* Centralizando img de bg */
+.not-centerd, .centered{
+
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/fundo.png");
+}
+
+.centered{
+    background-position: center;
+    background-size: cover;
+}
+
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.height-width2{
+    height: 100px;
+    background-color: aquamarine;
+}
+
+/* Padding */
+.without-padding, .padding{
+    background-color: black;
+    color: #fff;
+}
+
+.padding{
+padding: 20px;
+}
+
+.Shorthand{
+    background-color: brown;
+    padding: 6px 12px 18px 24px;
+}
+
+.Shorthand2{
+ background-color: yellow;
+ padding: 10px 20px ;
+}
+
+.without-border-box{
+    background-color: turquoise;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+
+.border-box{
+    background-color: darkblue;
+    color: wheat;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Borda */
+
+.border {
+    border: 5px solid red;
+}
+
+.border2{
+    border: 2px dotted rebeccapurple;
+    padding: 25px;
+}
+
+/* Borda individual */
+
+.borderleft{
+    border-left: 3px solid red;
+    background-color: #63a210;
+    padding: 15px;
+}
+
+.borderright{
+    border-right: 10px solid green;
+    background-color: rgb(95, 95, 95);
+    padding: 20px;
+}
+
+/* Borda arredondada */
+.aroundedBorder{
+border: 4px solid rebeccapurple;
+background-color: aqua;
+color: #63a210;
+padding: 15px;
+border-radius: 15px;
+}
+
+.aroundedBorder2{
+ border: 7px dotted gold;
+ background-color: brown;
+ color: aqua;
+ padding: 30px;
+ border-radius: 30px;
+}
+
+/* Margin */
+.marginTop{
+margin-top: 50px;
+background-color: yellow;
+}
+.margin{
+margin: 10px;
+background-color: seagreen;
+}
+.marginShortHand{
+ background-color: aqua;
+    padding: 15px;
+    margin: 5px 3px 50px 20px;
+}
+
+/* Box model */
+
+.boxModel{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 4px solid red;
+    border-radius: 100px;
+    width: 200px;
+    height: 100px;
+}
+
+/* Alinhamento de texto */
+.textAligned{
+    text-align: right;
+}
+
+.textAlignedCenter{
+    text-align: center;
+}
+/* Decoração de texto */
+.underLine{
+    text-decoration: underline;
+}
+.lineTrough{
+    text-decoration: line-through;
+}
+.removeUnderLine{
+    text-decoration: none;
+    color: #63a210;
+}
+
+/* text transform */
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+
+/* Espaçamento das letras */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* Font */
+
+.serif{
+    font-family:serif;
+}
+.sansSerif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+
+/* Modo italico e oblico */
+
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* font weight */
+
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/* font size */
+
+.small{
+    font-size: 6px;
+}
+.big{
+    font-size: 78px;
+}
+
+/* display */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: aqua;
+    display: block;
+    margin: 10px;
+}
+
+.invisible{
+    display: none;
+}
+
+/* Static */
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    background-color: bisque;
+    color: #63a210;
+    width: 100px;
+    height: 100px;
+
+}
+
+.absolute{
+    position: absolute;
+    background-color: rgb(29, 116, 119);
+    color: #3010a2;
+    width: 100px;
+    height: 100px;
+        top: 100px;
+    left: 100px;
+}
+
+     /*relative com absolute  */
+
+.relative-container{
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid rebeccapurple;
+    margin-top: 120px;
+    position: relative;
+}
+/* absolute position */
+.absolute1,.absolute2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(207, 128, 10);
+    position: absolute;
+}
+
+.absolute1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+/* Fixed position */
+.fixed{
+    width: 60px;
+    height: 60px;
+    background-color: #63a210;
+    border: 1px solid royalblue;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/* sticky */
+.sticky{
+    width: 60px;
+    height: 60px;
+    background-color: #a23910;
+    border: 1px solid rgb(1, 8, 29);
+    margin-top: 120px;
+    position: sticky;
+    top: 10px;
+}
+
+/* Z index */
+.absolute3,.absolute4, .absolute5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(10, 207, 86);
+    position: absolute;
+}
+
+.absolute3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+}
+
+.absolute4{
+    top: 10px;
+    left: 10px;
+    background-color: #a23910;
+    z-index: 20;
+}
+
+.absolute5{
+    top: 40px;
+    left: 40px;
+    background-color: #3010a2;
+}

@@ -1,0 +1,149 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #329ee4;
+}
+
+h1, h2, h3 ,h4 ,h5 {
+    color: #333;
+}
+
+p, label{
+    color:#444 #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #CCC; 
+    padding: 10px 0;   
+}
+
+input[type="text"], [type="number"],[type="date"],[type="file"], textarea{
+    width: 800px;
+}
+
+/* page header */
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #005a99;
+  
+}
+
+.header h3{
+      color: antiquewhite;
+      margin-top: 0;
+      text-align: center;
+}
+
+/* form container */
+
+.form-container{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+textarea{
+ padding: 10px 5px;
+
+}
+
+.form-header{
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+}
+
+.form-header p {
+    color: #329ee4;
+    border-bottom:  2px solid #329ee4;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body{
+    padding: 30px;
+
+}
+.form-body p{
+    margin-bottom: 20px;
+    
+
+}
+
+.form-title{
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+}
+.body p{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.required-field{
+    color: crimson;
+}
+
+.box-input{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin-bottom: 0 30px 30px 0;
+
+}
+
+.opcional-list li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.box-input p{
+    margin-bottom: 25px;
+}
+
+.btn-submit{
+     display: block; 
+    background-color:#005a99;
+    color: #ffffff;
+    border: 2px solid transparent;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    border-color: #005a99;
+    color: #005a99;
+
+}

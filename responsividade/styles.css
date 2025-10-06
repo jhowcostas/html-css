@@ -12,7 +12,7 @@ h1{
 p{
     background-color: aqua;
     color: blueviolet;
-}
+} 
 
 
 @media screen and (min-width: 800px){

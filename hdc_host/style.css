@@ -158,15 +158,17 @@ nav{
 
 .pricing-container h2{
     font-size: 36px;
+    text-align: center;
 }
 .pricing-container p{
     font-size: 20px;
+     text-align: center;
 }
 
 .plans-container{
     display: flex;
     justify-content: space-between;
-    margin: 50px auto 0;
+    margin: 0 auto 0;
 }
 
 .plan{
@@ -209,6 +211,11 @@ nav{
     padding: 50px 0;
 }
 
+.plan .recommended-text{
+    color: #5796f4;
+    font-size: 8px;
+}
+
 .plan .plan-btn{
     background-color: #2cc762;
     color: #fff;
@@ -229,4 +236,49 @@ nav{
     margin: 0 auto -50px;
     font-size: 18px;
     position: relative;
+}
+
+/* search domain */
+.searchdomain-container{
+    background-color: #202b34;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchdomain-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-container input[type= "text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input[type="submit"] {
+    background-color: #22bb5f;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .8;
+}
+.searchdomain-container input[type="submit"]:hover {
+    opacity: 1;
 }

@@ -68,21 +68,26 @@ nav{
 }
 
 /* main banner */
-
-.main-banner{
-    
-    background-size:cover;
-    background-position: center;
-    background-image: url(img/city2.jpg);
-    padding: 10rem 0;
-}
-
 .main-banner h1, .main-banner p{
     color: #fff;
     text-align: center;
     font-weight: bold;
     text-shadow: #000 4px 3px 4px;
 }
+
+
+.main-banner{
+    
+    background-size:cover;
+    background-position: center;
+    background-image: url(img/city2.jpg);
+    
+    padding: 10rem 0;
+    color: #fff; /* garante que todo texto dentro seja branco */
+
+} 
+
+
 
 .main-banner h1{
     font-size: 50px;
@@ -379,10 +384,41 @@ footer{
     .searchdomain-container h2{
         font-size: 36px;
     }
-          /* .pricing-container{
-               padding: 15px;
-                
-            } */
+}
+/*  Responsividade Celular */
+
+@media(max-width: 425px){
+
+    .contact-container input, .contact-container textarea{
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .contact-container textarea{
+        margin-left: 20px;
+    }
+
+    .navbar-container li{
+        padding: -2px;
+        font-size: 10px;
+    }
+
+    .main-banner p{
+        font-size: 34px;
+        padding: 15px;
+    }
+        
+
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        margin: 15px;
+    }
+    
 
 }
-

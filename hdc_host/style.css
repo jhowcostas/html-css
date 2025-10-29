@@ -356,17 +356,29 @@ footer{
         font-size: 32px;
     }
     
-        .services-container li.fa-shield-alt h3,
-        .services-container li.fa-rocket h3,
-        .services-container li.fa-comments h3 {
-            padding-top: 30px;
-        }
+    .services-container li.fa-shield-alt h3,
+    .services-container li.fa-rocket h3,
+    .services-container li.fa-comments h3 {
+        padding-top: 30px;
+    }
 
 
-        .plan{
-            min-width: 150px;
-padding-left: 0%;
-        }
+
+    .plans-container{
+        padding-left: 5%;
+    }
+
+       .plans-container li{
+        min-width: 150px;
+    }
+
+           .plans-container li.price, li.recommended{
+        min-width: 120px;
+    }
+
+    .searchdomain-container h2{
+        font-size: 36px;
+    }
           /* .pricing-container{
                padding: 15px;
                 

@@ -1,0 +1,30 @@
+body{
+    padding-bottom: 500px;
+}
+
+
+.flex{
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+       margin-bottom: 20px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.box{
+height: 40px;
+width: 33%;
+border: 1px solid red;
+}

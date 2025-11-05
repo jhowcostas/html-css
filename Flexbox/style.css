@@ -28,3 +28,79 @@ height: 40px;
 width: 33%;
 border: 1px solid red;
 }
+
+
+/* justfy content */
+.center, .space-around, .space-between, .end{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box,
+.end .box,
+.space-around .box,
+.space-between .box{
+    width: 50px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+}
+
+/* Align itens */
+
+.align-center, .stretch, .flex-end{
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.align-center .box,
+.stretch .box,
+.flex-end .box{
+    width: 50px;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.stretch .box{
+    height: auto;
+}
+
+/* gap */
+
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid rgb(0, 243, 73);
+    gap: 10px;
+}
+
+.gap .box{
+    width: 32%;
+}
+

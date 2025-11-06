@@ -104,3 +104,43 @@ border: 1px solid red;
     width: 32%;
 }
 
+/* Order */
+
+.order{
+    display: flex;
+}
+#one{
+    order: 1;
+}
+
+#two{
+    order: 2;
+}
+
+#three{
+    order: 3;
+}
+/* grow */
+
+.grow{
+    display: flex;
+}
+
+.grow .box{
+    flex: 1;
+}
+
+.grow .big{
+    flex: 2;
+}
+
+.basis{
+    display: flex;
+}
+.basis .box{
+    flex-basis: 20px;
+}
+
+.basis .big{
+    flex-grow: 1;
+}

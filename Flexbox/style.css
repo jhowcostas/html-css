@@ -157,6 +157,31 @@ border: 1px solid red;
     width: auto;
 }
 
-.shrink .small{
+.shrink.small{
     flex-shrink: 3;
 }
+
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+}
+
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid blueviolet;
+}
+
+.auto-alignment .different{
+    align-self: center;
+}
+

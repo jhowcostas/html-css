@@ -1,3 +1,54 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+/* Containers */
+
+#main-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.banner-container,
+.form-container{
+    flex: 1 1 0;
+    width: 50%;
+}
+
+
+.banner-container{
+    text-align: right;
+}
+
+.banner-container{
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+#form-container{
+    text-align: center;
+}
+
+/* Login forms */
+
+.form-box {
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-insta{
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
 }

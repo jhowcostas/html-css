@@ -1,3 +1,34 @@
+/* Tema claro */
+:root{
+    --bg:#fafafa;
+    --texto: #111;
+    --borda: #bdbdbd;
+    --caixa: #d2d7dbe8;
+    --logintxt: #fff;
+    --acao: #51abe7;
+    --box: #fff;
+    --spantxt: #bbb;
+    --footertxt: #8e8e8e;
+    --senha:#373799;
+    --inputbg: #fafafa;
+
+}
+/* Tema escuro */
+[data-tema="escuro"]{
+    --bg:#1a3242;
+    --texto: #e5e7eb;
+    --borda: #1f2937;
+    --caixa: #111827;
+    --acao: #38bdf8;
+    --box: #24475e;
+    --spantxt: #d4d6db;
+    --footertxt: #e5e7eb;
+    --senha:#d1d1eb;
+    --inputbg: #111827;
+}
+/* Estilos padrão */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +37,7 @@
 }
 
 body{
-    background-color: #fafafa;
+    background-color: var(--bg);
 }
 
 /* Containers */
@@ -41,8 +72,8 @@ body{
 /* Login forms */
 
 .form-box {
-    background-color: #fff;
-    border: 1px solid #bdbdbd;
+    background-color: var(--bg);
+    border: 1px solid var(--borda);
     width: 350px;
     margin-top: 30px;
 }
@@ -61,16 +92,16 @@ body{
     display: block;
     font-size: 12px;
     padding: 12px 9px;
-    background-color: #fafafa;
-    border: 1px solid #bdbdbd;
+    background-color: var(--inputbg);
+    border: 1px solid var(--borda);
     border-radius: 3px;
     width: 268px;
     margin: 5px auto;
 }
 
 #login-form input[type="submit"]{
-    background-color: #B2dFFc;
-    color: #fff;
+    background-color: var(--acao);
+    color: var(--logintxt);
     margin-top: 15px;
     border-radius: 5px;
     height: 30px;
@@ -86,7 +117,7 @@ body{
 }
 
 .line{
-    border-top: 1px solid #bdbdbd;
+    border-top: 1px solid var(--borda);
     width: 268px;
     margin: 25px auto 35px;
 }
@@ -94,8 +125,8 @@ body{
 .separator span {
     position: absolute;
     text-transform: uppercase;
-    color: #bbb;
-    background-color: #fff;
+    color: var(--spantxt);
+    background-color: var(--bg);
     top: -6px;
    
     margin-left: -15px;
@@ -110,7 +141,7 @@ body{
 
 .facebook-login a{
     text-decoration: none;
-    color: #385185;
+    color: var(--senha);
     display: flex;
     align-items: center;
     justify-content: center ;
@@ -137,13 +168,13 @@ body{
 
 .forgot-pass a{
     text-decoration: none;
-    color: #373799;
+    color: var(--senha);
 }
 /* Registrar */
 
 .register-container{
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
+    background-color: var(--bg);
+    border: 1px solid var(--borda);
     margin-top: 10px; 
     width: 350px;
     padding: 25px;
@@ -151,11 +182,11 @@ body{
 
 .register-container p{
     font-size: 14px;
-    color: #262626;
+    color: var(--texto);
 }
 
 .register-container a{
-    color: #4a95f6;
+    color: var(--acao);
     font-weight: bolder;
     text-decoration: none;
 }
@@ -170,6 +201,7 @@ body{
 .get-app-container p{
     margin: 20px 0;
     font-size: 13px;
+    color: var(--texto)
 }
 
 .get-app-container a {
@@ -204,7 +236,7 @@ footer #footer-links{
 
 #footer-links a, #copy-right{
     text-decoration: none;
-    color: #8e8e8e;
+    color: var(--footertxt);
     font-size: 12px;
 }
 

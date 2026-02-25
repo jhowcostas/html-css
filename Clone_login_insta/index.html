@@ -7,9 +7,15 @@
     <title>Instagram</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
+    <header>
+        <form>
+            <button id="btnTema" class="btn">Alternar tema 🌓</button>
+        </form>
+    </header>
     <main id="main-container">
         <!-- Banner Container -->
         <div id="banner-container">
@@ -71,7 +77,7 @@
                 <li><a href="#">Instagram Lite</a></li>
             </ul>
         </nav>
-        <p id="copy-right">&copy; 2026 Instagram from Meta</p>
+        <p id="copy-right">&copy; <span id="ano"></span> Instagram from Meta</p>
     </footer>
 </body>
 
